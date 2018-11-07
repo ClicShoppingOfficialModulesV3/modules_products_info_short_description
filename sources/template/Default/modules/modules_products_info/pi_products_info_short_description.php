@@ -1,9 +1,9 @@
 <?php
 /**
  * pi_products_info_short_description.php 
- * @copyright Copyright 2008 - http://www.innov-concept.com
+ * @copyright 2008 - https://www.clicshopping.org
  * @Brand : ClicShopping(Tm) at Inpi all right Reserved
- * @license GPL 2 License & MIT Licence
+ * @license GPL 2 & MIT
    
  */
 
@@ -42,7 +42,7 @@
 
         $delete_word = (int)MODULE_PRODUCTS_INFO_SHORT_DESCRIPTION_SHORT_DELETE_WORDS;
         $products_short_description_number = (int)MODULE_PRODUCTS_INFO_SHORT_DESCRIPTION_SHORT_DESCRIPTION;
-        $products_short_description = $CLICSHOPPING_ProductsCommon->getProductsShortDescription(null, $delete_word, $products_short_description_number );
+        $products_short_description = $CLICSHOPPING_ProductsCommon->getProductsShortDescription($CLICSHOPPING_ProductsCommon->getID(), $delete_word, $products_short_description_number );
 
         $products_short_description_content = '<!-- Start products hort description -->' . "\n";
 
