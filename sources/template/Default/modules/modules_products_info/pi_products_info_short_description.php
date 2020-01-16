@@ -101,7 +101,7 @@
           'configuration_description' => 'Affiche le nom du produità gauche ou à droite<br><br><i>(Valeur Left = Gauche <br>Valeur Right = Droite <br>Valeur None = Aucun)</i>',
           'configuration_group_id' => '6',
           'sort_order' => '2',
-          'set_function' => 'clic_cfg_set_boolean_value(array(\'right\', \'left\', \'none\'))',
+          'set_function' => 'clic_cfg_set_boolean_value(array(\'right\', \'left\' \'float-md-none\'))',
           'date_added' => 'now()'
         ]
       );
