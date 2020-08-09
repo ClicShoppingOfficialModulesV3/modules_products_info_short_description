@@ -152,7 +152,7 @@
     }
 
     public function keys() {
-      return array (
+      return array(
         'MODULE_PRODUCTS_INFO_SHORT_DESCRIPTION_STATUS',
         'MMODULE_PRODUCTS_INFO_SHORT_DESCRIPTION_CONTENT_WIDTH',
         'MODULE_PRODUCTS_INFO_SHORT_DESCRIPTION_POSITION',
